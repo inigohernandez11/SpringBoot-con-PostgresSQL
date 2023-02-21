@@ -8,3 +8,8 @@ spring:
     username: postgres
     password: Welcome4$
     continueOnError: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operationsSorter: method
